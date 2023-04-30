@@ -18,37 +18,37 @@ body {
 }
 
 #letters>g>path:nth-child(2) {
-    animation: stroke-draw 2s ease-in-out 1s 1 forwards, stroke-disappear 2s ease 2.5s 1 forwards;
+    animation: stroke-draw 2s ease-in-out 1s 1 forwards, stroke-disappear 2s ease 2.8s 1 forwards;
 }
 
 #letters>defs>#gradient-green>stop:nth-child(1) {
     --fill-color: #EFFFF2;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 2.5s 1 forwards;
 }
 
 #letters>defs>#gradient-green>stop:nth-child(2) {
     --fill-color: #CDFFD5;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 2.7s 1 forwards;
 }
 
 #letters>defs>#gradient-green>stop:nth-child(3) {
     --fill-color: #ABFFB8;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 2.9s 1 forwards;
 }
 
 #letters>defs>#gradient-blue>stop:nth-child(1) {
     --fill-color: #EEFFFB;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 2.8s 1 forwards;
 }
 
 #letters>defs>#gradient-blue>stop:nth-child(2) {
     --fill-color: #B7FFF0;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 3s 1 forwards;
 }
 
 #letters>defs>#gradient-blue>stop:nth-child(3) {
     --fill-color: #7FFFE5;
-    animation: fill-letter 2s ease 2.5s 1 forwards;
+    animation: fill-letter 1.6s ease 3.2s 1 forwards;
 }
 
 @keyframes stroke-draw {
